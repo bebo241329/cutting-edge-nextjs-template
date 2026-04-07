@@ -12,25 +12,25 @@ export default async function DashboardPage({
     <section className="space-y-4">
       <h1 className="text-3xl font-semibold">Dashboard</h1>
       <p className="text-base-content/70">
-        This area demonstrates CSR management patterns. Current locale: {locale}
+        Manage authenticated dashboard workflows. Current locale: {locale}
       </p>
       <div className="grid gap-4 md:grid-cols-3">
         <article className="card bg-base-100 p-4 shadow">
-          <h2 className="text-lg font-semibold">TanStack Query</h2>
+          <h2 className="text-lg font-semibold">Overview</h2>
           <p className="text-sm text-base-content/70">
-            Server-state caching and invalidation.
+            Protected dashboard landing experience.
           </p>
         </article>
         <article className="card bg-base-100 p-4 shadow">
-          <h2 className="text-lg font-semibold">TanStack Form</h2>
+          <h2 className="text-lg font-semibold">Example Entities</h2>
           <p className="text-sm text-base-content/70">
-            Form state and validation orchestration.
+            List, view, create, edit, and delete example entities.
           </p>
         </article>
         <article className="card bg-base-100 p-4 shadow">
-          <h2 className="text-lg font-semibold">REST API Layer</h2>
+          <h2 className="text-lg font-semibold">Provider Switch</h2>
           <p className="text-sm text-base-content/70">
-            Endpoint integration through typed API helpers.
+            Data is served by REST or Firebase through a single configuration key.
           </p>
         </article>
       </div>
