@@ -42,3 +42,11 @@ yarn-error.log*
 next-env.d.ts
 
 /storybook-static
+/playwright-report/
+/test-results/
+.firebase/
+firebase-debug.log
+firestore-debug.log
+*.bak
+.claude/
+docs/superpowers/
