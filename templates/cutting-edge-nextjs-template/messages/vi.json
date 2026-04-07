@@ -8,10 +8,112 @@
     "about": "Giới thiệu",
     "blog": "Blog",
     "dashboard": "Bảng điều khiển",
-    "users": "Người dùng"
+    "users": "Người dùng",
+    "exampleEntities": "Thực thể ví dụ",
+    "addExampleEntity": "Thêm thực thể ví dụ"
   },
   "marketing": {
     "headline": "Bắt đầu nhanh hơn với mẫu Next.js gọn gàng",
     "subheadline": "Bao gồm i18n, SEO scaffolding và mẫu dashboard CSR"
+  },
+  "toast": {
+    "auth": {
+      "signedIn": "Đăng nhập thành công.",
+      "accountCreated": "Tạo tài khoản thành công.",
+      "resetSent": "Nếu tài khoản tồn tại, hướng dẫn đặt lại mật khẩu đã được gửi.",
+      "serviceUnavailable": "Dịch vụ xác thực hiện không khả dụng. Vui lòng thử lại sau.",
+      "signInFailed": "Không thể đăng nhập. Vui lòng thử lại.",
+      "registerFailed": "Không thể tạo tài khoản. Vui lòng thử lại.",
+      "forgotPasswordFailed": "Không thể gửi hướng dẫn đặt lại mật khẩu."
+    },
+    "exampleEntity": {
+      "created": "Tạo thực thể ví dụ thành công.",
+      "updated": "Cập nhật thực thể ví dụ thành công.",
+      "deleted": "Xóa thực thể ví dụ thành công.",
+      "serviceUnavailable": "Dịch vụ thực thể ví dụ hiện không khả dụng. Vui lòng thử lại sau.",
+      "loadFailed": "Không thể tải thực thể ví dụ.",
+      "loadListFailed": "Không thể tải danh sách thực thể ví dụ.",
+      "saveFailed": "Không thể lưu thực thể ví dụ. Vui lòng thử lại.",
+      "deleteFailed": "Không thể xóa thực thể ví dụ."
+    }
+  },
+  "apiErrors": {
+    "common": {
+      "invalid_request": "Yêu cầu không hợp lệ.",
+      "request_failed": "Yêu cầu thất bại."
+    },
+    "auth": {
+      "invalid_credentials": "Email hoặc mật khẩu không đúng.",
+      "register_failed": "Không thể tạo tài khoản.",
+      "forgot_password_failed": "Không thể gửi hướng dẫn đặt lại mật khẩu.",
+      "auth_client_error": "Yêu cầu xác thực không hợp lệ.",
+      "upstream_service_error": "Dịch vụ xác thực hiện không khả dụng. Vui lòng thử lại sau.",
+      "auth_failed": "Xác thực thất bại.",
+      "permission_denied": "Bạn không có quyền thực hiện hành động này.",
+      "insufficient_role": "Bạn không có quyền truy cập trang này.",
+      "account_deactivated": "Tài khoản của bạn đã bị vô hiệu hóa. Vui lòng liên hệ hỗ trợ.",
+      "email_already_taken": "Email này đã được đăng ký.",
+      "username_already_taken": "Tên người dùng này đã được sử dụng.",
+      "user_profile_not_found": "Không tìm thấy hồ sơ người dùng.",
+      "user_profile_create_failed": "Không thể tạo hồ sơ người dùng.",
+      "user_profile_update_failed": "Không thể cập nhật hồ sơ người dùng."
+    },
+    "exampleEntity": {
+      "not_found": "Không tìm thấy thực thể ví dụ.",
+      "not_implemented": "Tính năng chưa được triển khai.",
+      "validation_error": "Dữ liệu thực thể ví dụ không hợp lệ.",
+      "client_error": "Yêu cầu thực thể ví dụ không hợp lệ.",
+      "contract_error": "Dịch vụ thực thể ví dụ trả về dữ liệu không hợp lệ.",
+      "upstream_error": "Dịch vụ thực thể ví dụ hiện không khả dụng. Vui lòng thử lại sau.",
+      "network_error": "Dịch vụ thực thể ví dụ hiện không khả dụng. Vui lòng thử lại sau.",
+      "example_entity_request_failed": "Yêu cầu thực thể ví dụ thất bại.",
+      "permission_denied": "Bạn không có quyền thực hiện hành động này."
+    }
+  },
+  "validation": {
+    "password": {
+      "tooShort": "Mật khẩu phải có ít nhất 12 ký tự",
+      "tooLong": "Mật khẩu tối đa 128 ký tự",
+      "missingUppercase": "Mật khẩu phải chứa ít nhất một chữ hoa",
+      "missingLowercase": "Mật khẩu phải chứa ít nhất một chữ thường",
+      "missingNumber": "Mật khẩu phải chứa ít nhất một chữ số",
+      "missingSymbol": "Mật khẩu phải chứa ít nhất một ký tự đặc biệt",
+      "weakPassword": "Mật khẩu này quá phổ biến. Vui lòng chọn mật khẩu mạnh hơn",
+      "noWhitespace": "Mật khẩu không được có khoảng trắng ở đầu hoặc cuối",
+      "required": "Vui lòng nhập mật khẩu"
+    },
+    "email": {
+      "invalid": "Vui lòng nhập địa chỉ email hợp lệ"
+    },
+    "fullName": {
+      "tooShort": "Họ và tên phải có ít nhất 2 ký tự",
+      "tooLong": "Họ và tên tối đa 100 ký tự"
+    },
+    "displayName": {
+      "tooShort": "Tên hiển thị phải có ít nhất 2 ký tự",
+      "tooLong": "Tên hiển thị tối đa 50 ký tự"
+    },
+    "username": {
+      "tooShort": "Tên người dùng phải có ít nhất 3 ký tự",
+      "tooLong": "Tên người dùng tối đa 30 ký tự",
+      "invalidFormat": "Tên người dùng chỉ được chứa chữ cái, số và dấu gạch dưới"
+    },
+    "avatarUrl": {
+      "invalidUrl": "URL ảnh đại diện phải là URL hợp lệ"
+    },
+    "pronouns": {
+      "tooLong": "Đại từ tối đa 30 ký tự"
+    },
+    "bio": {
+      "tooLong": "Tiểu sử tối đa 500 ký tự"
+    }
+  },
+  "pages": {
+    "unauthorized": {
+      "title": "Từ chối truy cập",
+      "heading": "Bạn không có quyền",
+      "description": "Bạn không có quyền truy cập trang này.",
+      "backToHome": "Về trang chủ"
+    }
   }
 }

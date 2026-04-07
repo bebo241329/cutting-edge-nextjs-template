@@ -8,10 +8,112 @@
     "about": "About",
     "blog": "Blog",
     "dashboard": "Dashboard",
-    "users": "Users"
+    "users": "Users",
+    "exampleEntities": "Example Entities",
+    "addExampleEntity": "Add Example Entity"
   },
   "marketing": {
     "headline": "Build faster with a clean Next.js starter",
     "subheadline": "Includes i18n, SEO scaffolding, and CSR dashboard patterns"
+  },
+  "toast": {
+    "auth": {
+      "signedIn": "Signed in successfully.",
+      "accountCreated": "Account created successfully.",
+      "resetSent": "If the account exists, reset instructions were sent.",
+      "serviceUnavailable": "Authentication service is unavailable right now. Please try again later.",
+      "signInFailed": "Unable to sign in. Please try again.",
+      "registerFailed": "Unable to create account. Please try again.",
+      "forgotPasswordFailed": "Unable to send reset instructions."
+    },
+    "exampleEntity": {
+      "created": "Example entity created successfully.",
+      "updated": "Example entity updated successfully.",
+      "deleted": "Example entity deleted successfully.",
+      "serviceUnavailable": "Example entity service is unavailable right now. Please try again later.",
+      "loadFailed": "Unable to load example entity.",
+      "loadListFailed": "Unable to load example entities.",
+      "saveFailed": "Unable to save example entity. Please try again.",
+      "deleteFailed": "Unable to delete example entity."
+    }
+  },
+  "apiErrors": {
+    "common": {
+      "invalid_request": "Invalid request.",
+      "request_failed": "Request failed."
+    },
+    "auth": {
+      "invalid_credentials": "Invalid email or password.",
+      "register_failed": "Unable to create account.",
+      "forgot_password_failed": "Unable to send reset instructions.",
+      "auth_client_error": "Authentication request is invalid.",
+      "upstream_service_error": "Authentication service is unavailable right now. Please try again later.",
+      "auth_failed": "Authentication failed.",
+      "permission_denied": "You don't have permission to perform this action.",
+      "insufficient_role": "You don't have access to this page.",
+      "account_deactivated": "Your account has been deactivated. Please contact support.",
+      "email_already_taken": "This email is already registered.",
+      "username_already_taken": "This username is already taken.",
+      "user_profile_not_found": "User profile not found.",
+      "user_profile_create_failed": "Unable to create user profile.",
+      "user_profile_update_failed": "Unable to update user profile."
+    },
+    "exampleEntity": {
+      "not_found": "Example entity not found.",
+      "not_implemented": "Feature is not implemented.",
+      "validation_error": "Invalid example entity data.",
+      "client_error": "Example entity request is invalid.",
+      "contract_error": "Example entity service returned invalid data.",
+      "upstream_error": "Example entity service is unavailable right now. Please try again later.",
+      "network_error": "Example entity service is unavailable right now. Please try again later.",
+      "example_entity_request_failed": "Example entity request failed.",
+      "permission_denied": "You don't have permission to perform this action."
+    }
+  },
+  "validation": {
+    "password": {
+      "tooShort": "Password must be at least 12 characters",
+      "tooLong": "Password must be at most 128 characters",
+      "missingUppercase": "Password must contain at least one uppercase letter",
+      "missingLowercase": "Password must contain at least one lowercase letter",
+      "missingNumber": "Password must contain at least one number",
+      "missingSymbol": "Password must contain at least one special character",
+      "weakPassword": "This password is too common. Please choose a stronger password",
+      "noWhitespace": "Password cannot start or end with whitespace",
+      "required": "Password is required"
+    },
+    "email": {
+      "invalid": "Please enter a valid email address"
+    },
+    "fullName": {
+      "tooShort": "Full name must be at least 2 characters",
+      "tooLong": "Full name must be at most 100 characters"
+    },
+    "displayName": {
+      "tooShort": "Display name must be at least 2 characters",
+      "tooLong": "Display name must be at most 50 characters"
+    },
+    "username": {
+      "tooShort": "Username must be at least 3 characters",
+      "tooLong": "Username must be at most 30 characters",
+      "invalidFormat": "Username can only contain letters, numbers, and underscores"
+    },
+    "avatarUrl": {
+      "invalidUrl": "Avatar URL must be a valid URL"
+    },
+    "pronouns": {
+      "tooLong": "Pronouns must be at most 30 characters"
+    },
+    "bio": {
+      "tooLong": "Bio must be at most 500 characters"
+    }
+  },
+  "pages": {
+    "unauthorized": {
+      "title": "Access denied",
+      "heading": "You don't have permission",
+      "description": "You don't have permission to access this page.",
+      "backToHome": "Back to home"
+    }
   }
 }
