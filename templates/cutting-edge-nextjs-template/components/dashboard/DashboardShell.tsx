@@ -13,7 +13,7 @@ type DashboardShellProps = {
 
 const navItems = [
   { href: "/dashboard", label: "Overview", exact: true },
-  { href: "/dashboard/example-entities", label: "Example Entities" },
+  { href: "/dashboard/example-entities", label: "Example Entities", exact: false },
 ] as const;
 
 function getPageTitle(pathname: string) {
@@ -71,7 +71,7 @@ export default function DashboardShell({ children }: DashboardShellProps) {
         </div>
         <nav className="space-y-2 px-4 pb-4">
           {navItems.map((item) => {
-            const isActive = item.exact
+            const isActive = item.exact === true
               ? pathname === item.href
               : pathname.startsWith(item.href);
 

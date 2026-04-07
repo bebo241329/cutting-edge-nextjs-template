@@ -34,19 +34,16 @@ export default function ExampleEntityDetail({ id }: ExampleEntityDetailProps) {
     return <div className="alert">Example entity not found.</div>;
   }
 
+  const entity = detailQuery.data;
+
   return (
     <article className="card bg-base-100 shadow">
       <div className="card-body space-y-4">
-        <h2 className="card-title text-2xl">{detailQuery.data.title}</h2>
-        <p className="whitespace-pre-wrap text-base-content/80">{detailQuery.data.body}</p>
-        <p className="text-sm text-base-content/60">
-          Updated: {new Date(detailQuery.data.updatedAt).toLocaleString()}
-        </p>
+        <h2 className="card-title text-2xl">{entity.title}</h2>
+        <p className="whitespace-pre-wrap text-base-content/80">{entity.body}</p>
+        <p className="text-sm text-base-content/60">Updated: {new Date(entity.updatedAt).toLocaleString()}</p>
         <div className="card-actions justify-end gap-2">
-          <Link
-            href={`/dashboard/example-entities/${detailQuery.data.id}/edit`}
-            className="btn btn-outline"
-          >
+          <Link href={`/dashboard/example-entities/${entity.id}/edit`} className="btn btn-outline">
             Edit
           </Link>
           <button
@@ -62,7 +59,7 @@ export default function ExampleEntityDetail({ id }: ExampleEntityDetailProps) {
               }
 
               try {
-                await deleteMutation.mutateAsync(detailQuery.data.id);
+                await deleteMutation.mutateAsync(entity.id);
                 toast.success(t("toast.exampleEntity.deleted"));
                 router.push("/dashboard/example-entities");
               } catch {

@@ -7,7 +7,7 @@ import { serverEnv } from "./lib/env/server";
 
 const intlMiddleware = createMiddleware(routing);
 const AUTH_ROUTES = ["/login", "/register", "/forgot-password"];
-const LOCALES = new Set(routing.locales);
+const LOCALES = new Set<string>(routing.locales);
 const DASHBOARD_ALLOWED_ROLES = new Set(["admin", "manager"]);
 
 function stripLocalePrefix(pathname: string) {
